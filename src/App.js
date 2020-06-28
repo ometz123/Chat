@@ -1,3 +1,19 @@
+import React, { Component } from 'react';
+import './App.css';
+import FCChat from './FCComponents/FCChat';
+
+class App extends Component {
+  render() {
+    return (
+      <div style={{ width: 300, margin: "auto" }}>
+        <FCChat />
+      </div>
+    );
+  }
+}
+export default App;
+
+
 // import React, { Component } from 'react';
 // import './App.css';
 // import firebase from "firebase"
@@ -101,17 +117,3 @@
 // }
 
 // export default App;
-import React, { Component } from 'react';
-import './App.css';
-import FCChat from './FCComponents/FCChat';
-
-class App extends Component {
-  render() {
-    return (
-      <div style={{ width: 300, margin: "auto" }}>
-        <FCChat />
-      </div>
-    );
-  }
-}
-export default App;
